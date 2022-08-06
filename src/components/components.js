@@ -23,6 +23,12 @@ export const MyButton = (props)=>{
     )
 }
 
+export const Button = (props)=>{
+    return (
+        <button onClick={props.onBtnClick} className="btn">See details</button>
+    )
+}
+
 export const Card = (props)=>{
 
     let mainContainer = {
@@ -49,7 +55,9 @@ export const Card = (props)=>{
             <img src={props.url} alt="description" style={placeImg}/>
             <div className='info'>
                 <p>{props.cardName}</p>
-                <button onClick={props.onBtnClick} className="btn">See details</button>
+                <>
+                {props.button}
+                </>
             </div>
         </div>
     )
