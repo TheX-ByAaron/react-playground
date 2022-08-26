@@ -1,0 +1,30 @@
+.grid-container{
+    width: 60%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px
+}
+
+.image-card{
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 10px;
+    transition: all 300ms;
+}
+
+.image-card:hover{
+    box-shadow: 10px 10px 35px -7px rgba(0,0,0,0.27);
+}
+
+.image{
+    width: 80%;
+    border-radius: 20px;
+}

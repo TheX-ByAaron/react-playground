@@ -1,0 +1,12 @@
+.todo-item{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

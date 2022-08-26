@@ -9,7 +9,7 @@ export const ContactCard = (props)=>{
                 <a href="tel:054404039404">05405049485</a>
                 <a href="fb">Autolib fb</a>
                 <a href="insta">Autolib twitter</a>
-                <a href="twitter">Autolib insta</a>
+                <a href="twitter">{props.text}</a>
             </div>
             <div className="inner2">
                 <input placeholder="Name" type="text"/>
